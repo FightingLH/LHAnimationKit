@@ -17,6 +17,7 @@
 		06C812F91E8D3F5D00681168 /* LH_AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C812F81E8D3F5D00681168 /* LH_AnimationUITests.m */; };
 		06C813091E8D401600681168 /* AnimationOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C813081E8D401600681168 /* AnimationOneViewController.m */; };
 		06C8130C1E8D48CA00681168 /* AnimationCommonOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C8130B1E8D48CA00681168 /* AnimationCommonOneViewController.m */; };
+		EB2EF74C1E960E19002C43A2 /* OneVeiw.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2EF74B1E960E19002C43A2 /* OneVeiw.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		06C813081E8D401600681168 /* AnimationOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationOneViewController.m; sourceTree = "<group>"; };
 		06C8130A1E8D48CA00681168 /* AnimationCommonOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationCommonOneViewController.h; sourceTree = "<group>"; };
 		06C8130B1E8D48CA00681168 /* AnimationCommonOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationCommonOneViewController.m; sourceTree = "<group>"; };
+		EB2EF74A1E960E19002C43A2 /* OneVeiw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneVeiw.h; sourceTree = "<group>"; };
+		EB2EF74B1E960E19002C43A2 /* OneVeiw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneVeiw.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,12 +153,22 @@
 		06C813061E8D3FF100681168 /* AnimationOne */ = {
 			isa = PBXGroup;
 			children = (
+				EB2EF7491E960E06002C43A2 /* view */,
 				06C813071E8D401600681168 /* AnimationOneViewController.h */,
 				06C813081E8D401600681168 /* AnimationOneViewController.m */,
 				06C8130A1E8D48CA00681168 /* AnimationCommonOneViewController.h */,
 				06C8130B1E8D48CA00681168 /* AnimationCommonOneViewController.m */,
 			);
 			name = AnimationOne;
+			sourceTree = "<group>";
+		};
+		EB2EF7491E960E06002C43A2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EB2EF74A1E960E19002C43A2 /* OneVeiw.h */,
+				EB2EF74B1E960E19002C43A2 /* OneVeiw.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,6 +310,7 @@
 				06C8130C1E8D48CA00681168 /* AnimationCommonOneViewController.m in Sources */,
 				06C812D81E8D3F5D00681168 /* AppDelegate.m in Sources */,
 				06C812D51E8D3F5D00681168 /* main.m in Sources */,
+				EB2EF74C1E960E19002C43A2 /* OneVeiw.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -433,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -530,6 +544,7 @@
 				06C812FF1E8D3F5D00681168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06C813001E8D3F5D00681168 /* Build configuration list for PBXNativeTarget "LH_AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +553,7 @@
 				06C813021E8D3F5D00681168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06C813031E8D3F5D00681168 /* Build configuration list for PBXNativeTarget "LH_AnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +562,7 @@
 				06C813051E8D3F5D00681168 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

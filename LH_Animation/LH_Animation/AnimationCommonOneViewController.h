@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 typedef NS_ENUM(NSInteger,AnimationType){
-    AnimationTypeMove,
+    AnimationTypeMove,//2D
+    AnimationTypeRoate,
+    AnimationTypeGradient,
+    AnimationTypeReplicator,
+    AnimationTypeEmitterLauyer
 };
 @interface AnimationCommonOneViewController : UIViewController
-
+@property (nonatomic,assign) AnimationType type;
 @end

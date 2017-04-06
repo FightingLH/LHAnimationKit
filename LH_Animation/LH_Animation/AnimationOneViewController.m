@@ -60,6 +60,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     AnimationCommonOneViewController *common = [[AnimationCommonOneViewController alloc]init];
+    common.type = indexPath.row;
     [self.navigationController pushViewController:common animated:YES];
 }
 @end
