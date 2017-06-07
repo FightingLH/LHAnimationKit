@@ -7,7 +7,8 @@
 //
 
 #import "AnimationOneViewController.h"
-#import "AnimationCommonOneViewController.h"
+#import "AnimationCommonTwoViewController.h"
+
 @interface AnimationOneViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
 @property (nonatomic,strong) NSMutableArray *dataArray;
@@ -59,8 +60,6 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    AnimationCommonOneViewController *common = [[AnimationCommonOneViewController alloc]init];
-    common.type = indexPath.row;
-    [self.navigationController pushViewController:common animated:YES];
+    
 }
 @end
