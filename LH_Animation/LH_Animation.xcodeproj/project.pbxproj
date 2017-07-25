@@ -17,7 +17,11 @@
 		06C812F91E8D3F5D00681168 /* LH_AnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C812F81E8D3F5D00681168 /* LH_AnimationUITests.m */; };
 		06C813091E8D401600681168 /* AnimationOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C813081E8D401600681168 /* AnimationOneViewController.m */; };
 		06C8130C1E8D48CA00681168 /* AnimationCommonOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C8130B1E8D48CA00681168 /* AnimationCommonOneViewController.m */; };
+		EB03EF5F1EE7D0F200B2F212 /* LHAnimationThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB03EF5E1EE7D0F200B2F212 /* LHAnimationThreeController.m */; };
+		EB03EF611EE7DD5400B2F212 /* document_test.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EB03EF601EE7DD5400B2F212 /* document_test.rtf */; };
 		EB2EF74C1E960E19002C43A2 /* OneVeiw.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2EF74B1E960E19002C43A2 /* OneVeiw.m */; };
+		EBF649681E977A640089BF30 /* AnimationCommonTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF649671E977A630089BF30 /* AnimationCommonTwoViewController.m */; };
+		EBF6496B1E977C040089BF30 /* VariFlightAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF6496A1E977C040089BF30 /* VariFlightAnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +62,15 @@
 		06C813081E8D401600681168 /* AnimationOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationOneViewController.m; sourceTree = "<group>"; };
 		06C8130A1E8D48CA00681168 /* AnimationCommonOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationCommonOneViewController.h; sourceTree = "<group>"; };
 		06C8130B1E8D48CA00681168 /* AnimationCommonOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationCommonOneViewController.m; sourceTree = "<group>"; };
+		EB03EF5D1EE7D0F200B2F212 /* LHAnimationThreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHAnimationThreeController.h; sourceTree = "<group>"; };
+		EB03EF5E1EE7D0F200B2F212 /* LHAnimationThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHAnimationThreeController.m; sourceTree = "<group>"; };
+		EB03EF601EE7DD5400B2F212 /* document_test.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = document_test.rtf; sourceTree = "<group>"; };
 		EB2EF74A1E960E19002C43A2 /* OneVeiw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneVeiw.h; sourceTree = "<group>"; };
 		EB2EF74B1E960E19002C43A2 /* OneVeiw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneVeiw.m; sourceTree = "<group>"; };
+		EBF649661E977A630089BF30 /* AnimationCommonTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationCommonTwoViewController.h; sourceTree = "<group>"; };
+		EBF649671E977A630089BF30 /* AnimationCommonTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationCommonTwoViewController.m; sourceTree = "<group>"; };
+		EBF649691E977C040089BF30 /* VariFlightAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariFlightAnimationView.h; sourceTree = "<group>"; };
+		EBF6496A1E977C040089BF30 /* VariFlightAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariFlightAnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +121,14 @@
 		06C812D21E8D3F5D00681168 /* LH_Animation */ = {
 			isa = PBXGroup;
 			children = (
+				EB03EF5C1EE7D0D000B2F212 /* AnimationThree */,
+				EBF649651E9779C40089BF30 /* AnimationTwo */,
 				06C813061E8D3FF100681168 /* AnimationOne */,
 				06C812D61E8D3F5D00681168 /* AppDelegate.h */,
 				06C812D71E8D3F5D00681168 /* AppDelegate.m */,
 				06C812D91E8D3F5D00681168 /* ViewController.h */,
 				06C812DA1E8D3F5D00681168 /* ViewController.m */,
+				EB03EF601EE7DD5400B2F212 /* document_test.rtf */,
 				06C812DC1E8D3F5D00681168 /* Main.storyboard */,
 				06C812DF1E8D3F5D00681168 /* Assets.xcassets */,
 				06C812E11E8D3F5D00681168 /* LaunchScreen.storyboard */,
@@ -158,8 +172,19 @@
 				06C813081E8D401600681168 /* AnimationOneViewController.m */,
 				06C8130A1E8D48CA00681168 /* AnimationCommonOneViewController.h */,
 				06C8130B1E8D48CA00681168 /* AnimationCommonOneViewController.m */,
+				EBF649661E977A630089BF30 /* AnimationCommonTwoViewController.h */,
+				EBF649671E977A630089BF30 /* AnimationCommonTwoViewController.m */,
 			);
 			name = AnimationOne;
+			sourceTree = "<group>";
+		};
+		EB03EF5C1EE7D0D000B2F212 /* AnimationThree */ = {
+			isa = PBXGroup;
+			children = (
+				EB03EF5D1EE7D0F200B2F212 /* LHAnimationThreeController.h */,
+				EB03EF5E1EE7D0F200B2F212 /* LHAnimationThreeController.m */,
+			);
+			name = AnimationThree;
 			sourceTree = "<group>";
 		};
 		EB2EF7491E960E06002C43A2 /* view */ = {
@@ -167,8 +192,17 @@
 			children = (
 				EB2EF74A1E960E19002C43A2 /* OneVeiw.h */,
 				EB2EF74B1E960E19002C43A2 /* OneVeiw.m */,
+				EBF649691E977C040089BF30 /* VariFlightAnimationView.h */,
+				EBF6496A1E977C040089BF30 /* VariFlightAnimationView.m */,
 			);
 			name = view;
+			sourceTree = "<group>";
+		};
+		EBF649651E9779C40089BF30 /* AnimationTwo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AnimationTwo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06C812E31E8D3F5D00681168 /* LaunchScreen.storyboard in Resources */,
+				EB03EF611EE7DD5400B2F212 /* document_test.rtf in Resources */,
 				06C812E01E8D3F5D00681168 /* Assets.xcassets in Resources */,
 				06C812DE1E8D3F5D00681168 /* Main.storyboard in Resources */,
 			);
@@ -305,12 +340,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF649681E977A640089BF30 /* AnimationCommonTwoViewController.m in Sources */,
 				06C813091E8D401600681168 /* AnimationOneViewController.m in Sources */,
+				EB03EF5F1EE7D0F200B2F212 /* LHAnimationThreeController.m in Sources */,
 				06C812DB1E8D3F5D00681168 /* ViewController.m in Sources */,
 				06C8130C1E8D48CA00681168 /* AnimationCommonOneViewController.m in Sources */,
 				06C812D81E8D3F5D00681168 /* AppDelegate.m in Sources */,
 				06C812D51E8D3F5D00681168 /* main.m in Sources */,
 				EB2EF74C1E960E19002C43A2 /* OneVeiw.m in Sources */,
+				EBF6496B1E977C040089BF30 /* VariFlightAnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
