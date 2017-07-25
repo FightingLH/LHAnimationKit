@@ -9,6 +9,20 @@
 #import "NSObject+Runtime.h"
 #import <objc/runtime.h>
 @implementation NSObject (Runtime)
+
++ (instancetype)lh_objDictionary:(NSDictionary *)dict
+{
+    id objList = [[self alloc] init];
+    NSArray *proList = [self lh_objProperty];
+    [dict enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
+        if ([proList containsObject:key]) {
+            [objList setValue:obj forKey:key];
+        }
+    }];
+    return objList;
+}
+
+
 + (NSArray *)lh_objProperty
 {
     unsigned int count = 0;

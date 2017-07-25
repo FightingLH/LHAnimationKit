@@ -18,8 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSArray *property = [Person lh_objProperty];
-    NSLog(@"%@",property);
+//    NSArray *property = [Person lh_objProperty];
+//    NSLog(@"%@",property);
+    
+    Person *person = [Person lh_objDictionary:@{@"name":@"lihuan",@"sex":@"男"}];
+    NSLog(@"%@",person);
 }
 
 

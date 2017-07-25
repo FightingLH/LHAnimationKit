@@ -9,5 +9,8 @@
 #import "Person.h"
 
 @implementation Person
-
+- (NSString *)description
+{
+    return [self dictionaryWithValuesForKeys:@[@"name",@"sex"]].description;
+}
 @end
