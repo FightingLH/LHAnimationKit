@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0616A8021F2786E4004BC8DC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0616A8011F2786E4004BC8DC /* Person.m */; };
+		0616A8051F27871D004BC8DC /* NSObject+Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 0616A8041F27871D004BC8DC /* NSObject+Runtime.m */; };
 		06C812D51E8D3F5D00681168 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C812D41E8D3F5D00681168 /* main.m */; };
 		06C812D81E8D3F5D00681168 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C812D71E8D3F5D00681168 /* AppDelegate.m */; };
 		06C812DB1E8D3F5D00681168 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C812DA1E8D3F5D00681168 /* ViewController.m */; };
@@ -47,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0616A8001F2786E4004BC8DC /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0616A8011F2786E4004BC8DC /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0616A8031F27871D004BC8DC /* NSObject+Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Runtime.h"; sourceTree = "<group>"; };
+		0616A8041F27871D004BC8DC /* NSObject+Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Runtime.m"; sourceTree = "<group>"; };
 		06C812D01E8D3F5D00681168 /* LH_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LH_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C812D41E8D3F5D00681168 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		06C812D61E8D3F5D00681168 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +119,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0616A7FF1F278683004BC8DC /* rumtime */ = {
+			isa = PBXGroup;
+			children = (
+				0616A8001F2786E4004BC8DC /* Person.h */,
+				0616A8011F2786E4004BC8DC /* Person.m */,
+				0616A8031F27871D004BC8DC /* NSObject+Runtime.h */,
+				0616A8041F27871D004BC8DC /* NSObject+Runtime.m */,
+			);
+			name = rumtime;
+			sourceTree = "<group>";
+		};
 		06C812C71E8D3F5D00681168 = {
 			isa = PBXGroup;
 			children = (
@@ -136,8 +153,12 @@
 		06C812D21E8D3F5D00681168 /* LH_Animation */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				EB869A451F1DA1A70084AD2C /* CircleView */,
 				EB869A071F1D99F90084AD2C /* AnimationFour */,
+=======
+				0616A7FF1F278683004BC8DC /* rumtime */,
+>>>>>>> 3eb5b88730476ff71f2bb62ae63efa34b0aaf120
 				EB03EF5C1EE7D0D000B2F212 /* AnimationThree */,
 				EBF649651E9779C40089BF30 /* AnimationTwo */,
 				06C813061E8D3FF100681168 /* AnimationOne */,
@@ -408,6 +429,8 @@
 				EB869A0B1F1D9A0B0084AD2C /* LoadingHUD.m in Sources */,
 				EBF649681E977A640089BF30 /* AnimationCommonTwoViewController.m in Sources */,
 				06C813091E8D401600681168 /* AnimationOneViewController.m in Sources */,
+				0616A8021F2786E4004BC8DC /* Person.m in Sources */,
+				0616A8051F27871D004BC8DC /* NSObject+Runtime.m in Sources */,
 				EB03EF5F1EE7D0F200B2F212 /* LHAnimationThreeController.m in Sources */,
 				EB869A0F1F1D9BCC0084AD2C /* JumpStarView.m in Sources */,
 				06C812DB1E8D3F5D00681168 /* ViewController.m in Sources */,
