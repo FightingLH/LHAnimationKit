@@ -7,16 +7,24 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "LoadingHUD.h"
+#import "KYBubbleInteractiveTransition.h"
+#import "LHCircleView.h"
+@interface ViewController()
+@property  (nonatomic, strong) NSTimer *timer;
+@property  (nonatomic, strong) LHCircleView *circleView;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+   
 }
 
 
