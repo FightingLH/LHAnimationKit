@@ -22,6 +22,11 @@
 		EB03EF5F1EE7D0F200B2F212 /* LHAnimationThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB03EF5E1EE7D0F200B2F212 /* LHAnimationThreeController.m */; };
 		EB03EF611EE7DD5400B2F212 /* document_test.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EB03EF601EE7DD5400B2F212 /* document_test.rtf */; };
 		EB2EF74C1E960E19002C43A2 /* OneVeiw.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2EF74B1E960E19002C43A2 /* OneVeiw.m */; };
+		EB869A0B1F1D9A0B0084AD2C /* LoadingHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EB869A0A1F1D9A0B0084AD2C /* LoadingHUD.m */; };
+		EB869A0F1F1D9BCC0084AD2C /* JumpStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB869A0E1F1D9BCC0084AD2C /* JumpStarView.m */; };
+		EB869A2E1F1D9BE80084AD2C /* KYBubbleInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EB869A121F1D9BE80084AD2C /* KYBubbleInteractiveTransition.m */; };
+		EB869A2F1F1D9BE80084AD2C /* KYBubbleTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = EB869A141F1D9BE80084AD2C /* KYBubbleTransition.m */; };
+		EB869A481F1DA1C90084AD2C /* LHCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB869A471F1DA1C90084AD2C /* LHCircleView.m */; };
 		EBF649681E977A640089BF30 /* AnimationCommonTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF649671E977A630089BF30 /* AnimationCommonTwoViewController.m */; };
 		EBF6496B1E977C040089BF30 /* VariFlightAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF6496A1E977C040089BF30 /* VariFlightAnimationView.m */; };
 /* End PBXBuildFile section */
@@ -73,6 +78,16 @@
 		EB03EF601EE7DD5400B2F212 /* document_test.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = document_test.rtf; sourceTree = "<group>"; };
 		EB2EF74A1E960E19002C43A2 /* OneVeiw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneVeiw.h; sourceTree = "<group>"; };
 		EB2EF74B1E960E19002C43A2 /* OneVeiw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneVeiw.m; sourceTree = "<group>"; };
+		EB869A091F1D9A0B0084AD2C /* LoadingHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingHUD.h; sourceTree = "<group>"; };
+		EB869A0A1F1D9A0B0084AD2C /* LoadingHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingHUD.m; sourceTree = "<group>"; };
+		EB869A0D1F1D9BCC0084AD2C /* JumpStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpStarView.h; sourceTree = "<group>"; };
+		EB869A0E1F1D9BCC0084AD2C /* JumpStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpStarView.m; sourceTree = "<group>"; };
+		EB869A111F1D9BE80084AD2C /* KYBubbleInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYBubbleInteractiveTransition.h; sourceTree = "<group>"; };
+		EB869A121F1D9BE80084AD2C /* KYBubbleInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYBubbleInteractiveTransition.m; sourceTree = "<group>"; };
+		EB869A131F1D9BE80084AD2C /* KYBubbleTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYBubbleTransition.h; sourceTree = "<group>"; };
+		EB869A141F1D9BE80084AD2C /* KYBubbleTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYBubbleTransition.m; sourceTree = "<group>"; };
+		EB869A461F1DA1C90084AD2C /* LHCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHCircleView.h; sourceTree = "<group>"; };
+		EB869A471F1DA1C90084AD2C /* LHCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHCircleView.m; sourceTree = "<group>"; };
 		EBF649661E977A630089BF30 /* AnimationCommonTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationCommonTwoViewController.h; sourceTree = "<group>"; };
 		EBF649671E977A630089BF30 /* AnimationCommonTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationCommonTwoViewController.m; sourceTree = "<group>"; };
 		EBF649691E977C040089BF30 /* VariFlightAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariFlightAnimationView.h; sourceTree = "<group>"; };
@@ -138,7 +153,12 @@
 		06C812D21E8D3F5D00681168 /* LH_Animation */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+				EB869A451F1DA1A70084AD2C /* CircleView */,
+				EB869A071F1D99F90084AD2C /* AnimationFour */,
+=======
 				0616A7FF1F278683004BC8DC /* rumtime */,
+>>>>>>> 3eb5b88730476ff71f2bb62ae63efa34b0aaf120
 				EB03EF5C1EE7D0D000B2F212 /* AnimationThree */,
 				EBF649651E9779C40089BF30 /* AnimationTwo */,
 				06C813061E8D3FF100681168 /* AnimationOne */,
@@ -214,6 +234,54 @@
 				EBF6496A1E977C040089BF30 /* VariFlightAnimationView.m */,
 			);
 			name = view;
+			sourceTree = "<group>";
+		};
+		EB869A071F1D99F90084AD2C /* AnimationFour */ = {
+			isa = PBXGroup;
+			children = (
+				EB869A101F1D9BE80084AD2C /* KYBubbleTransition */,
+				EB869A0C1F1D9BCC0084AD2C /* JumpStarView */,
+				EB869A081F1D9A0B0084AD2C /* LoadingHUD */,
+			);
+			name = AnimationFour;
+			sourceTree = "<group>";
+		};
+		EB869A081F1D9A0B0084AD2C /* LoadingHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EB869A091F1D9A0B0084AD2C /* LoadingHUD.h */,
+				EB869A0A1F1D9A0B0084AD2C /* LoadingHUD.m */,
+			);
+			path = LoadingHUD;
+			sourceTree = "<group>";
+		};
+		EB869A0C1F1D9BCC0084AD2C /* JumpStarView */ = {
+			isa = PBXGroup;
+			children = (
+				EB869A0D1F1D9BCC0084AD2C /* JumpStarView.h */,
+				EB869A0E1F1D9BCC0084AD2C /* JumpStarView.m */,
+			);
+			path = JumpStarView;
+			sourceTree = "<group>";
+		};
+		EB869A101F1D9BE80084AD2C /* KYBubbleTransition */ = {
+			isa = PBXGroup;
+			children = (
+				EB869A111F1D9BE80084AD2C /* KYBubbleInteractiveTransition.h */,
+				EB869A121F1D9BE80084AD2C /* KYBubbleInteractiveTransition.m */,
+				EB869A131F1D9BE80084AD2C /* KYBubbleTransition.h */,
+				EB869A141F1D9BE80084AD2C /* KYBubbleTransition.m */,
+			);
+			path = KYBubbleTransition;
+			sourceTree = "<group>";
+		};
+		EB869A451F1DA1A70084AD2C /* CircleView */ = {
+			isa = PBXGroup;
+			children = (
+				EB869A461F1DA1C90084AD2C /* LHCircleView.h */,
+				EB869A471F1DA1C90084AD2C /* LHCircleView.m */,
+			);
+			name = CircleView;
 			sourceTree = "<group>";
 		};
 		EBF649651E9779C40089BF30 /* AnimationTwo */ = {
@@ -358,17 +426,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB869A0B1F1D9A0B0084AD2C /* LoadingHUD.m in Sources */,
 				EBF649681E977A640089BF30 /* AnimationCommonTwoViewController.m in Sources */,
 				06C813091E8D401600681168 /* AnimationOneViewController.m in Sources */,
 				0616A8021F2786E4004BC8DC /* Person.m in Sources */,
 				0616A8051F27871D004BC8DC /* NSObject+Runtime.m in Sources */,
 				EB03EF5F1EE7D0F200B2F212 /* LHAnimationThreeController.m in Sources */,
+				EB869A0F1F1D9BCC0084AD2C /* JumpStarView.m in Sources */,
 				06C812DB1E8D3F5D00681168 /* ViewController.m in Sources */,
 				06C8130C1E8D48CA00681168 /* AnimationCommonOneViewController.m in Sources */,
 				06C812D81E8D3F5D00681168 /* AppDelegate.m in Sources */,
 				06C812D51E8D3F5D00681168 /* main.m in Sources */,
 				EB2EF74C1E960E19002C43A2 /* OneVeiw.m in Sources */,
 				EBF6496B1E977C040089BF30 /* VariFlightAnimationView.m in Sources */,
+				EB869A2E1F1D9BE80084AD2C /* KYBubbleInteractiveTransition.m in Sources */,
+				EB869A481F1DA1C90084AD2C /* LHCircleView.m in Sources */,
+				EB869A2F1F1D9BE80084AD2C /* KYBubbleTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

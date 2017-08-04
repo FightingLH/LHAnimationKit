@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "AnimationOneViewController.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[ViewController new]];
 //    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[AnimationOneViewController new]];
+>>>>>>> 3eb5b88730476ff71f2bb62ae63efa34b0aaf120
     return YES;
 }
 
