@@ -22,7 +22,6 @@
     return objList;
 }
 
-
 + (NSArray *)lh_objProperty
 {
     unsigned int count = 0;

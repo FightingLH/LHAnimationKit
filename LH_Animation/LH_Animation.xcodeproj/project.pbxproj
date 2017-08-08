@@ -119,7 +119,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0616A7FF1F278683004BC8DC /* rumtime */ = {
+		0616A7FF1F278683004BC8DC /* runtime */ = {
 			isa = PBXGroup;
 			children = (
 				0616A8001F2786E4004BC8DC /* Person.h */,
@@ -127,7 +127,7 @@
 				0616A8031F27871D004BC8DC /* NSObject+Runtime.h */,
 				0616A8041F27871D004BC8DC /* NSObject+Runtime.m */,
 			);
-			name = rumtime;
+			name = runtime;
 			sourceTree = "<group>";
 		};
 		06C812C71E8D3F5D00681168 = {
@@ -153,12 +153,9 @@
 		06C812D21E8D3F5D00681168 /* LH_Animation */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				EB869A451F1DA1A70084AD2C /* CircleView */,
 				EB869A071F1D99F90084AD2C /* AnimationFour */,
-=======
-				0616A7FF1F278683004BC8DC /* rumtime */,
->>>>>>> 3eb5b88730476ff71f2bb62ae63efa34b0aaf120
+				0616A7FF1F278683004BC8DC /* runtime */,
 				EB03EF5C1EE7D0D000B2F212 /* AnimationThree */,
 				EBF649651E9779C40089BF30 /* AnimationTwo */,
 				06C813061E8D3FF100681168 /* AnimationOne */,
