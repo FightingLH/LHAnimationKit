@@ -18,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+<<<<<<< HEAD
+=======
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[ViewController new]];
+>>>>>>> d23024c7ff670bf4ea739984999c19d702b82ec7
 //    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[AnimationOneViewController new]];
     return YES;
 }
